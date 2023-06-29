@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div>
+    <div style="display: flex;">
+        <img src="" alt="hi" style="margin: 7px;">
+        <h1 style="margin-left: 550px;">Online book store</h1>
+    </div>
+    <div>
+        <ul style="display: flex; justify-content: space-around;">
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+        </ul>
+    </div>
+    <div style="display: flex; height: 80vh; ">
+        <div style="width:20% ; border: solid 0.8px ; border-right: 0.1px;">
+            <ul>
+                <li><a href="#">home</a></li>
+                <br>
+                <li><a href="#">home</a></li><br>
+                <li><a href="#">home</a></li><br>
+                <li><a href="#">home</a></li><br>
+            </ul>
+        </div>
+        <div style="width: 60%; border: solid 0.8px; border-right: 0.1px;">
+            <img src="" alt="hi">
+            <p>nagrjwr gnseitherbtno sengittue eg9hrpe 5hbguwoebt ubgbteou</p>
+        </div>
+        <div style="width: 20%; border: solid 0.8px; text-align: center; ">
+            <input id="name" type="text" placeholder="username" >
+            <br>
+            <input id="username"  placeholder="username">
+            <br>
+            <button>submit</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!--
+    <label>FirstName</label>
+    <input id="name" type="text" placeholder="username">
+    <br>
+    <label>Username</label>
+    <input id="username" type="text" placeholder="username">
+    <br>
+    <label>Password</label>
+    <input id="password" type="password" placeholder="password">
+    <br>
+    <label>DOB</label>
+    <input id="dob" type="date" placeholder="dob">
+    <br>
+    <label>Postal Code</label>
+    <input id="code" type="number" placeholder="code">
+    <br>
+    <label>Mobile Number </label>
+    <input id="phnum" type="number" placeholder="phnum">
+    <br>
+    <label>EmailId</label>
+    <input id="email" type="text" placeholder="email">
+    <button onclick="fun()">submit</button>
+    <script>
+        function fun(){
+        var name=document.getElementById("username").value;
+        var username=document.getElementById("username").value;
+        var pass=document.getElementById("password").value;
+        var dob=document.getElementById("dob").value;
+        var code=document.getElementById("code").value;
+        var phnum=document.getElementById("phnum").value;
+        var email=document.getElementById("email").value;
+        var name1=/[A-Z]/;
+        var username1=/w/;
+        var pass1=/\w/;
+        var code1=/[0-9]/
+        var phnum1=/[0-9]/
+        var email1=/[a-z]@[a-z]*.com/
+        if(name.length>=8){
+            alert('error username')
+        }else{
+            if(!code1.test(code)){
+                alert("error code");
+            }else{
+                if(!phnum1.test(phnum)){
+                    alert('error phnum');
+                }else{
+                    if(!email1.test(email)){
+                        alert('error email');
+                    }else{
+                        alert('ok');
+                    }
+                }
+            }
+        }
+    }
+    </script>
+    -->
+
+
+
+
+
+
+
+<!--<div>
+    <input id="username" type="text" placeholder="username">
+    <input id="password" type="password" placeholder="password">
+    <button id="submit" onclick="store()">submit</button>
+   </div> 
+   <div>
+    <input id="username1" type="text" placeholder="username">
+    <input id="password1" type="password" placeholder="password">
+    <button id="submit" onclick="get()">submit</button>
+   </div> 
+   <script>
+    function store(){
+        var userName=document.getElementById("username").value;
+        var pass=document.getElementById("password").value;
+        localStorage.setItem("user",userName);
+        localStorage.setItem("pass",pass);
+        document.getElementById("username").value="";
+        document.getElementById("password").value="";
+        alert('stored');
+    }
+    function get(){
+        var userName=document.getElementById("username1").value;
+        var pass=document.getElementById("password1").value;
+        var x=localStorage.getItem("user");
+        var y=localStorage.getItem("pass");
+        alert(x);alert(userName);
+        alert(y);alert
+        document.getElementById("username").value="";
+        document.getElementById("password").value="";
+        if(userName===x && pass===y){
+            alert('hello');
+        }else{
+            alert('no');
+        }
+    }
+   </script>-->
+</body>
+</html>
