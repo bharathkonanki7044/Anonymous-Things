@@ -1,0 +1,37 @@
+h1{
+
+}
+.class1,.class4{
+    margin:15px;
+    margin-left:21vh;
+    margin-right:21vh;
+    background-color:#FF416C;
+    color: white;
+    padding: 8px;
+}
+.class2{
+    margin:15px;
+    margin-left:15vh;
+    margin-right:15vh;
+    background-color:yellowgreen;
+    color: white;
+    padding: 8px;
+}
+.class3{
+    display: flex;
+    margin: 10px;
+}
+.subclass3{
+    width: 50%;
+    margin: 10px;
+    padding: 8px;
+}
+.sub-class3{
+    margin: 15px;
+    background-color: aquamarine;
+}
+h6{
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+}
